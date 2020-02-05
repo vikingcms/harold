@@ -1,0 +1,91 @@
+@include partials.header.axe
+
+    <div class="mx-auto mb-32">
+        <div class="hover:bg-gray-100 cursor-pointer p-10">
+            <h2 class="mb-4">
+                <a
+                    href="/"
+                    class="text-2xl hover:text-teal tracking-tight leading-tight font-bold"
+                >
+                    My Saturday Morning Ritual
+                </a>
+            </h2>
+            <p class="text-gray-600">
+                <span
+                    class="text-gray-800 text-sm uppercase tracking-widest font-medium"
+                    >October 12th, 1994</span
+                >
+                — When I was a wee lil lad I would sit in front of the television box every Saturday morning with a huge bowl of cereal as I enjoyed endless cartoon entertainment.
+            </p>
+        </div>
+        <div class="hover:bg-gray-100 cursor-pointer p-10">
+            <h2 class="mb-4">
+                <a
+                    href="/"
+                    class="text-2xl hover:text-teal tracking-tight leading-tight font-bold"
+                >
+                    The Game of Milk Caps
+                </a>
+            </h2>
+            <p class="text-gray-600">
+                <span
+                    class="text-gray-800 text-sm uppercase tracking-widest font-medium"
+                    >August 10th, 1998</span
+                >
+                — Pogs are popular where I come from. You can collect them, share them with your friends, or compete in a battle to win over more pogs.
+            </p>
+        </div>
+        <div class="hover:bg-gray-100 cursor-pointer p-10">
+            <h2 class="mb-4">
+                <a
+                    href="/"
+                    class="text-2xl hover:text-teal tracking-tight leading-tight font-bold"
+                >
+                    I've Got a Great Idea Guys, Slick Shoes!
+                </a>
+            </h2>
+            <p class="text-gray-600">
+                <span
+                    class="text-gray-800 text-sm uppercase tracking-widest font-medium"
+                    >July 5th, 1994</span
+                >
+                — The all-time classic Goonies movie holds some great memories. When a movie includes adventure, caves, and nerds,... Well. I'm in.
+            </p>
+        </div>
+        <div class="hover:bg-gray-100 cursor-pointer p-10">
+            <h2 class="mb-4">
+                <a
+                    href="/"
+                    class="text-2xl hover:text-teal tracking-tight leading-tight font-bold"
+                >
+                    Seriously Scary Good Books
+                </a>
+            </h2>
+            <p class="text-gray-600">
+                <span
+                    class="text-gray-800 text-sm uppercase tracking-widest font-medium"
+                    >February 27th, 1994</span
+                >
+                — The Goosebumps books written by R.L. Stine were some seriously scary good books. Classics like 'Say Cheese and Dies', and 'Welcome to Deadhouse' are just among a few.
+            </p>
+        </div>
+        <div class="hover:bg-gray-100 cursor-pointer p-10">
+            <h2 class="mb-4">
+                <a
+                    href="/"
+                    class="text-2xl hover:text-teal tracking-tight leading-tight font-bold"
+                >
+                    You'll Get Caught up in the Crossfire
+                </a>
+            </h2>
+            <p class="text-gray-600">
+                <span
+                    class="text-gray-800 text-sm uppercase tracking-widest font-medium"
+                    >February 27th, 1994</span
+                >
+                — Board games are good; however, this is not your typical boardgame. Crossfire will cause lightning to shoot from the sky as you battle your friends.
+            </p>
+        </div>
+    </div>
+
+@include partials.footer.axe

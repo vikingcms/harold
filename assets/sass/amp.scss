@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.amp-article{
+    h2{
+        @apply text-3xl mt-5 font-bold relative;
+    }
+    p{
+        @apply text-gray-700 font-serif text-xl tracking-normal mt-5;
+    }
+    ol, ul{
+        @apply my-8 ml-6 list-decimal text-gray-700;
+        li{
+            @apply mt-2 ml-2;
+        }
+    }
+    img{
+        @apply mt-5;
+    }
+}
