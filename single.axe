@@ -1,31 +1,12 @@
 @include partials.header.axe
 
-    <div class="mx-auto mb-32">
+    <div class="mx-auto mb-32 max-w-4xl">
         <div class="p-10">
-            <h1 class="text-5xl font-black mb-5">
-                My Saturday Morning Ritual
-            </h1>
-            <p class="text-gray-800 text-sm uppercase tracking-widest font-medium mb-8 -mt-3">Created October 12th, 1994</p>
-              
-            <p class="text-gray-700 text-xl font-serif leading-loose tracking-wide mt-2">
-                When I was a wee lil lad I would sit in front of the television box every Saturday morning with a huge bowl of cereal as I enjoyed endless cartoon entertainment.
-            </p>
-            <p class="text-gray-700 text-xl font-serif leading-loose tracking-wide mt-6">
-                It was a relaxing time and ever so enjoyable. The options of 2d action packed goodness sent colorful electrons from the tv screen, through my retinas, and straight into my occipital lobe. 
-            </p>
-            <img src="https://i.ytimg.com/vi/e1LO5887HVg/maxresdefault.jpg" class="rounded-lg my-8">
-            <p class="text-gray-700 text-xl font-serif leading-loose tracking-wide mt-6">
-                What was a kid to do with all this excitement? Well...  There was only one thing you could do, which was to binge in front of the TV for hours on end!
-            </p>
-            <p  class="text-gray-700 text-xl font-serif leading-loose tracking-wide mt-6">
-                Although during times of battle-scenes you might find me jumping from couch to couch re-enacting some of the awesome fighting moves. What would you expect? After shoveling down 2 bowls of high-octane sugar powered cereal I was running on all cylindars!
-            </p>
-            <blockquote class="pl-8 border-l-4 border-black text-2xl py-3 mt-6 font-bold font-serif relative">
-                It was a thrilling time to be alive
-            </blockquote>
-            <p  class="text-gray-700 text-xl font-serif leading-loose tracking-wide mt-6">
-                May those memories forever rest in peace.
-            </p>
+            <h1 class="text-5xl font-black mb-2">{{ post.title }}</h1>
+            <p class="text-gray-800 text-sm uppercase tracking-widest font-medium mb-10">Created {{ post.created_at }}</p>
+            <div class="post">
+                {{ post.body }}
+            </div>
         </div>
         
     </div>

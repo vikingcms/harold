@@ -4,25 +4,14 @@
 
 @tailwind utilities;
 
-#post{
-    h2{
-        @apply text-3xl mt-5 font-bold relative;
-    }
-    h2:before{
-        content: "# ";
-        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-        @apply -ml-8 -mt-1 text-4xl opacity-75 text-yellow-500 w-8 inline-block absolute;
-    }
+.post{
     p{
-        @apply text-gray-700 font-serif text-xl tracking-normal mt-5;
-    }
-    ol, ul{
-        @apply my-8 ml-6 list-decimal text-gray-700;
-        li{
-            @apply mt-2 ml-2;
-        }
+        @apply text-gray-700 text-xl font-serif leading-loose tracking-wide mt-6;
     }
     img{
-        @apply rounded mt-5;
+        @apply rounded-lg my-8;
+    }
+    blockquote{
+        @apply pl-8 border-l-4 border-black text-2xl py-3 mt-6 font-bold font-serif relative;
     }
 }
