@@ -13574,6 +13574,12 @@ video {
   position: relative;
 }
 
+.post h2 {
+  margin-top: 1.5rem;
+  color: #1a202c;
+  font-size: 2.25rem;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ title }}</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="{{ subfolder }}/assets/css/app.css">
 
     @if( typeof post !== 'undefined' && post.slug !== 'undefined' && post.slug)
-    <link rel="amphtml" href="{{ url }}/amp/{{ post.slug }}/">
+    <link rel="amphtml" href="{{ url }}/{{ subfolder }}/amp/{{ post.slug }}/">
     @endif
 
     <link rel="canonical" href="{{ currentURL }}">
@@ -20,15 +20,15 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ post.title }}" />
     <meta property="og:description" content="{{ post.excerpt }}" />
-    <meta property="og:url" content="{{ url }}/{{ post.slug }}">
-    <meta property="og:image" content="{{ url }}{{ post.image }}" />
+    <meta property="og:url" content="{{ url }}/{{ subfolder }}/{{ post.slug }}/">
+    <meta property="og:image" content="{{ url }}/{{ subfolder }}{{ post.image }}" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@thedevdojo">
     <meta name="twitter:creator" content="@thedevdojo">
     <meta name="twitter:title" content="{{ post.title }}" />
     <meta name="twitter:description" content="{{ post.excerpt }}" />
-    <meta name="twitter:image" content="{{ url }}{{ post.image }}" />
+    <meta name="twitter:image" content="{{ url }}/{{ subfolder }}{{ post.image }}" />
     @endif
 
     <!-- Google Tag Manager or Analytics -->

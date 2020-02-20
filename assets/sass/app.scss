@@ -14,4 +14,7 @@
     blockquote{
         @apply pl-8 border-l-4 border-black text-2xl py-3 mt-6 font-bold font-serif relative;
     }
+    h2{
+        @apply mt-6 text-gray-900 text-4xl;
+    }
 }
